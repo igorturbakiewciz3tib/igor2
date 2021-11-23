@@ -1,0 +1,81 @@
+body
+{
+    background-color: #747474;
+}
+div
+{
+    background-color: #474747;
+    color: white;
+    font-size: 70px;
+    font-family:'Andale Mono', monospace;
+    font-weight: bold;
+}
+#menu
+{
+    text-shadow: 20px 5px 10px #747474;
+    letter-spacing: 70px;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 10%;
+    left: 10%;
+    font-size: 100px;
+    min-width: 500px;
+}
+#menu p
+{
+    left:52%;
+}
+p
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#def
+{
+    position: absolute;
+    float: left;
+    width: 40%;
+    height: 150px;
+    top: 315px;
+    right: 30%;
+    left:30%;
+    min-width: 400px;
+}
+#his
+{
+    position: absolute;
+    width: 40%;
+    height: 150px;
+    top: 480px;
+    left: 30%;
+    min-width: 400px;
+}
+#zuz
+{
+    position: absolute;
+    width: 40%;
+    height: 150px;
+    top: 645px;
+    left: 30%;
+    min-width: 400px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+#footer
+{
+    clear: both;
+    position: fixed;
+    bottom: 0;
+}
+#def:hover, #his:hover, #zuz:hover
+{
+    background-color:#302e2d;
+}

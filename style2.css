@@ -1,0 +1,125 @@
+body
+{
+    background-color: #747474;
+}
+#menu
+{
+    display: block;
+    background-color: #474747;
+    width: 100%;
+    height: 70px;
+    font-size: 50px;
+    clear: both;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 10;
+}
+#menu p
+{
+    position: absolute;
+    top:-40px;
+    left: 48%;
+    font-family:'Andale Mono', monospace;
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+#txt
+{
+    font-size: 50px;
+}
+
+
+.ribboncontainer {
+    border: 1px solid #d8dee5;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    line-height: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 12px 15px;
+    background-color: white;
+    text-align: justify;
+    background-image: repeating-linear-gradient(0deg, #80DFFF, #80DFFF 2px, transparent 1px, transparent 40px);
+    
+}
+
+.ribboncontainer .ribbon {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    right: -20px;
+}
+/*Lewa wstążka*/
+.ribboncontainer .ribbon::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 90px;
+    background-color: #12487C;
+    width: 19px;
+    height: 19px;
+    -ms-transform: skewY(45deg);
+    -webkit-transform: skewY(45deg);
+    transform: skewY(45deg);
+    z-index: 1;
+}
+
+/*Prawa wstążka*/
+.ribboncontainer .ribbon::after {
+    content: ' ';
+    position: absolute;
+    right: 0;
+    top: 90px;
+    background-color: #12487C;
+    width: 19px;
+    height: 19px;
+    -ms-transform: skewY(-45deg);
+    -webkit-transform: skewY(-45deg);
+    transform: skewY(-45deg);
+    z-index: 1;
+}
+
+/*NAGŁÓWEK*/
+.ribboncontainer .ribbon h2 {
+    background-color: #1969ba;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+}
+p#txt
+{
+    font-size: 25px;
+    color: #46494f;
+    position: relative;
+    top: 7px;
+    text-indent:60px;
+}
+img{
+    display: block;
+    margin: auto;
+    border: 1px solid #aaaaaa;
+    padding: 5px;
+    z-index: 9;
+    border-radius: 50%; /* ten styl jest odpowiedzialny za zaokrąglenie promieniu responsywnym 50% */
+    box-shadow: 0 0 10px 10px rgba(200, 200, 200, 0.5); /* przesunięcie pionowe cienia [px]; przesunięcie poziome cienia [px]; promień rozmycia [px]; promień rozszerzenia cienia [px] rgba( czerwony, zielony, niebieski, przezroczystość) */
+}
+.tekst
+{
+    font-size: 25px;
+    color: #46494f;
+    position:relative;
+    top:7px;
+}
+
